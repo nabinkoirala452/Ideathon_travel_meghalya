@@ -41,6 +41,7 @@ const Router = () => {
         <Route path='/hotel-booking' element={<HotelBooking />} />
         <Route path='/places-to-visit' element={<PlacesToVisit />} />
         <Route path='/bus-booking' element={<BusBooking />} />
+        
     </Routes>
   )
 }
