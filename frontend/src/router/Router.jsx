@@ -14,6 +14,10 @@ import Bookings from '../Dashboard/AdminPanel/Bookings'
 import AdminTours from '../Dashboard/AdminPanel/AdminTours'
 import CreateTours from '../Dashboard/AdminPanel/CreateTours'
 import UpdateTours from '../Dashboard/AdminPanel/UpdateTour'
+import HotelBooking from "../pages/HotelBooking";
+import PlacesToVisit from "../pages/PlacesToVisit";
+import BusBooking from "../pages/BusBooking";
+
 
 const Router = () => {
   return (
@@ -33,6 +37,10 @@ const Router = () => {
         <Route path='/booked' element={<Booked />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/tours/search' element={<SearchResultList />} />
+
+        <Route path='/hotel-booking' element={<HotelBooking />} />
+        <Route path='/places-to-visit' element={<PlacesToVisit />} />
+        <Route path='/bus-booking' element={<BusBooking />} />
     </Routes>
   )
 }
