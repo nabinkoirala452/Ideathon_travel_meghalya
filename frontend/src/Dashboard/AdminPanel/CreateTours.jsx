@@ -4,6 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
 import BASE_URL from '../../utils/config'
 import {AuthContext} from '../../context/AuthContext'
+import  featuredToursData  from "../../assets/data/toursData.json";
+
 
 const CreateTours = () => {
   const navigate = useNavigate();
@@ -28,30 +30,26 @@ const CreateTours = () => {
         
       }
 
-  const handleSubmit = async (e) => {
-    e.preventDefault()
-    console.log(formData)
-    try {
-      const response = await fetch(`${BASE_URL}/tour`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-        body: JSON.stringify(formData),
-      });
-      const {message} = await response.json();
-  
-      if (response.ok) {
-        toast.success(message)
-        navigate('/all-tours')
-      } else{
-        toast.error(message)
-      }
-  } catch(err){
-    toast.error("Server not responding")
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  // Instead of fetch → use your JSON
+  const fakeResponse = {
+    ok: true,
+    message: "Tour added successfully",
+    data: featuredToursData, // here is your JSON
+  };
+
+  if (fakeResponse.ok) {
+    console.log("Submitted Data:", formData);
+    console.log("Available Tours:", fakeResponse.data);
+
+    toast.success(fakeResponse.message);
+    navigate("/all-tours");
+  } else {
+    toast.error("Something went wrong");
   }
-}
+};
 
 
   return (

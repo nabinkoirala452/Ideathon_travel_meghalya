@@ -1,27 +1,32 @@
 export const faqs = [
   {
-    question: "How do I book a trip with TripsTravel?",
+    question: "What is the best time to visit Meghalaya?",
     content:
-      "Booking your dream trip with TripsTravel is easy! Simply visit our website, browse through our exciting destinations, choose your preferred package, and follow the easy steps to secure your spot. For any assistance, our friendly customer support team is here to help.",
+      "The best time to visit Meghalaya is during the post-monsoon and winter seasons, from October to April. The weather is pleasant, and the waterfalls and landscapes are at their most vibrant. The monsoon season (June to September) is also a unique experience, offering lush green views and misty weather, but be prepared for heavy rainfall.",
   },
   {
-    question: "What types of travel experiences does TripsTravel offer?",
+    question: "How can I travel around Meghalaya?",
     content:
-      "TripsTravel caters to a wide range of travel preferences. Whether you're seeking adventurous getaways, cultural immersions, or relaxing retreats, we have diverse packages to suit every taste. Explore our website to discover the variety of experiences we offer.",
+      "Meghalaya's main city, Shillong, is well-connected. You can hire a private taxi or use local buses to travel between different towns and tourist spots. For remote areas like the living root bridges, trekking is the only way to reach them. Shared taxis are also a popular and economical option for inter-city travel.",
   },
   {
-    question: "Are TripsTravel tours suitable for solo travelers?",
+    question: "Is it safe for solo female travelers in Meghalaya?",
     content:
-      "Absolutely! Many of our tours are designed to accommodate solo travelers. Join a group of like-minded explorers, make new friends, and embark on unforgettable journeys together. Check our solo traveler-friendly options for an enriching experience.",
+      "Yes, Meghalaya is generally considered safe for solo female travelers. The local people are friendly and hospitable. However, like any other destination, it's always wise to take standard precautions, such as avoiding traveling late at night in isolated areas and informing someone about your itinerary.",
   },
   {
-    question: "How can I customize my travel itinerary with TripsTravel?",
+    question: "Do I need a special permit to visit Meghalaya?",
     content:
-      "At TripsTravel, we understand that every traveler is unique. To tailor your itinerary, contact our customization team. Whether you want to add specific activities, extend your stay, or create a personalized package, we're here to make your travel dreams a reality.",
+      "As of now, Indian citizens do not require a special permit to visit Meghalaya. Foreign nationals, however, may need to register with the authorities. It's always a good idea to check the latest regulations from the Government of India's Ministry of External Affairs or the Meghalaya Tourism website before your trip.",
   },
   {
-    question: "What safety measures does TripsTravel have in place?",
+    question: "What are the must-visit places in Meghalaya?",
     content:
-      "Your safety is our top priority. TripsTravel adheres to stringent safety standards and collaborates with trusted partners. We provide detailed safety information for each tour, and our experienced guides ensure a secure and enjoyable travel experience for all our guests.",
+      "Meghalaya is home to numerous natural wonders. Must-visit places include the living root bridges in Nongriat, the crystal-clear waters of the Umngot River in Dawki, Nohkalikai Falls, and the cleanest village in Asia, Mawlynnong. For adventure lovers, the Laitlum Canyons and various cave systems like Mawsmai Cave are highly recommended.",
+  },
+  {
+    question: "What kind of clothes should I pack for my trip to Meghalaya?",
+    content:
+      "The clothing you should pack depends on the season. For the monsoon, pack waterproof jackets, umbrellas, and sturdy waterproof footwear. For winter, carry warm clothes, including jackets, sweaters, and scarves, as temperatures can drop significantly, especially at night. For summer, light cotton clothing is suitable, but a light jacket is still a good idea for the evenings.",
   },
 ];
