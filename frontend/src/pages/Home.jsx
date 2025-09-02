@@ -109,6 +109,14 @@ const Home = () => {
         <div className="">
           <FeaturedTourList />
         </div>
+        <div className="flex justify-center mt-10">
+          <Link
+            to="/tours"
+            className="flex items-center gap-2 bg-BaseColor text-white px-6 py-3 rounded-lg shadow-md hover:bg-opacity-90 transition"
+          >
+            More Tours <BsArrowRight />
+          </Link>
+        </div>
       </section>
       {/* {Featured seactiton ends} */}
 
