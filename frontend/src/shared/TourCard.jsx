@@ -5,7 +5,6 @@ import { FaStar } from "react-icons/fa";
 import CalculateAvg from "../utils/CalculateAvg";
 
 const TourCard = ({ tour }) => {
-  // Use 'id' instead of '_id', default reviews to empty array
   const { photo, title, city, desc, id, reviews = [], featured } = tour;
 
   const { avgRating } = CalculateAvg(reviews);
@@ -22,8 +21,8 @@ const TourCard = ({ tour }) => {
         )}
       </div>
 
-      {/* Content Section */}
-      <div className="px-6 py-4 flex-1">
+      {/* Content Section - now also contains the button */}
+      <div className="px-6 py-4 flex flex-col flex-1">
         <div className="flex items-center justify-between mb-2">
           <p className="text-base">{city}</p>
           <div className="flex items-center gap-2">
@@ -38,18 +37,20 @@ const TourCard = ({ tour }) => {
           <Link to={`/tours/${id}`} className="py-2 block">
             {title.length > 20 ? title.substring(0, 20) + "..." : title}
           </Link>
-
           <p className="text-gray-700 text-base font-light">
             {desc.length > 80 ? desc.substring(0, 80) + "..." : desc}
           </p>
         </div>
-      </div>
 
-      {/* Button Section */}
-      <div className="px-6 pb-4 flex justify-end">
-        <Link to={`/tours/${id}`} className="btn text-sm">
-          Let's Go
-        </Link>
+        {/* Button Section - placed at the end of the flex container */}
+        <div className="mt-auto">
+          <Link
+            to={`/tours/${id}`}
+            className="bg-red-500 text-white font-bold py-2 px-4 rounded w-full text-center hover:bg-red-600 transition-colors"
+          >
+            Let's Go
+          </Link>
+        </div>
       </div>
     </div>
   );
