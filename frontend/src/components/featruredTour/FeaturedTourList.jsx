@@ -1,6 +1,4 @@
-import React from "react";
-import useFetch from "../../hooks/useFetch";
-import BASE_URL from "../../utils/config";
+
 import TourCard from "../../shared/TourCard";
 import featuredToursData from "../../assets/data/toursData.json"
 
