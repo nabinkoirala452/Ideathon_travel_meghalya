@@ -25,6 +25,8 @@
 
 .hotel-info {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .hotel-name {
@@ -35,7 +37,8 @@
 
 .hotel-location,
 .hotel-rating,
-.hotel-price {
+.hotel-price,
+.hotel-contact {
   margin: 5px 0;
   font-size: 1em;
   color: #666;
@@ -45,4 +48,73 @@
   margin-top: 15px;
   color: #555;
   font-size: 0.9em;
+}
+
+.book-button {
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #48bb78;
+}
+
+/* Modal and Form Styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.booking-form-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 450px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  /* Add these two lines to make the form scrollable */
+  max-height: 90vh; /* Set a maximum height relative to the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.booking-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.availability-info {
+  margin-bottom: 1rem;
+}
+
+.availability-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.availability-info li {
+  margin-bottom: 0.5rem;
 }
