@@ -9,7 +9,7 @@
     "desc": "Shillong – The Scotland of the East, famous for its rolling hills, vibrant culture, and colonial charm.",
     "photo": "https://assets.cntraveller.in/photos/66961b934b7ee0c8277f8277/16:9/w_960,c_limit/Shillong%20lead.jpg",
     "distance": 12,
-    "featured": true,
+    "featured": false,
     "reviews": []
   },
   {
@@ -22,7 +22,7 @@
     "desc": "Cherrapunji – The wettest place on Earth, known for living root bridges, waterfalls, and caves.",
     "photo": "https://travenjo.com/wp-content/uploads/2022/06/Seven-Sisters-Falls-1-gaimg.jpg?x58748",
     "distance": 20,
-    "featured": true,
+    "featured": false,
     "reviews": []
   },
   {
@@ -100,7 +100,7 @@
     "desc": "Umiam Lake – A scenic man-made reservoir, popular for water sports and picturesque sunsets.",
     "photo": "https://travenjo.com/wp-content/uploads/2019/06/UmiamBarapani-Lake-Shillong.jpg?x58748",
     "distance": 10,
-    "featured": true,
+    "featured": false,
     "reviews": []
   },
   {
@@ -126,7 +126,7 @@
     "desc": "Dawki – Famous for the crystal-clear Umngot River and boating experiences.",
     "photo": "https://assamholidays.com/wp-content/uploads/2023/06/Umgnot-River-Dawki-1.jpg",
     "distance": 35,
-    "featured": true,
+    "featured": false,
     "reviews": []
   },
   {
@@ -139,7 +139,7 @@
     "desc": "Tura – Gateway to the Garo Hills, known for Tura Peak and Nokrek Biosphere Reserve.",
     "photo": "https://storage.googleapis.com/stateless-www-justwravel-com/2017/06/Tura_Meghalaya_qugld8.jpg",
     "distance": 40,
-    "featured": true,
+    "featured": false,
     "reviews": []
   },
   {
@@ -178,7 +178,7 @@
     "desc": "Balpakram – Known as the Grand Canyon of the East, rich in wildlife and legends.",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_BJkZDtrD3tXIrXq4uL02MzZJtB4vUwWfg&s",
     "distance": 50,
-    "featured": true,
+    "featured": false,
     "reviews": []
   }
 ]

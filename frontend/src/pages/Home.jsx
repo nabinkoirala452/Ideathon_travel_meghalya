@@ -15,7 +15,6 @@ import FaqList from "../components/Faq/FaqList";
 import Testimonials from "../components/Testimonials/Testimonials";
 import faqImg from "../assets/images/experience.png";
 import ImagesGallery from "../components/Gallery/Gallery";
-
 const Home = () => {
   return (
     <>
@@ -61,6 +60,7 @@ const Home = () => {
           </div>
         </div>
         <SearchBar />
+      
       </div>
 
       {/* {Services Section Starts} */}

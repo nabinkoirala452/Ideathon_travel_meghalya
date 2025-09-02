@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "The Serene Stay",
+    "location": "Mawlynnong, Meghalaya",
+    "rating": 4.5,
+    "pricePerNight": 2500,
+    "image": "/images/hotel1.jpg",
+    "description": "A tranquil hotel nestled in the heart of Mawlynnong, offering a serene escape with beautiful views."
+  },
+  {
+    "id": 2,
+    "name": "Cherrapunjee Retreat",
+    "location": "Cherrapunjee, Meghalaya",
+    "rating": 4.8,
+    "pricePerNight": 3200,
+    "image": "/images/hotel2.jpg",
+    "description": "Experience the famous rain capital from this cozy retreat, complete with lush gardens and warm hospitality."
+  },
+  {
+    "id": 3,
+    "name": "Shillong View Resort",
+    "location": "Shillong, Meghalaya",
+    "rating": 4.2,
+    "pricePerNight": 2800,
+    "image": "/images/hotel3.jpg",
+    "description": "Overlooking the city of Shillong, this resort offers a blend of modern amenities and traditional charm."
+  }
+]
