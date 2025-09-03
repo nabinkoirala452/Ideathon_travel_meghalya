@@ -1,0 +1,39 @@
+[
+  {
+    "id": "bus-01",
+    "name": "Super Express",
+    "type": "AC Sleeper",
+    "photo": "/images/bus1.jpg",
+    "from": "Shillong",
+    "to": "Guwahati",
+    "departureTime": "09:00 AM",
+    "arrivalTime": "12:00 PM",
+    "price": 500,
+    "totalSeats": 20,
+    "seatLayout": [
+      ["a", "a", "s"],
+      ["s", "a", "s"],
+      ["s", "s", "a"],
+      ["a", "a", "s"]
+    ],
+    "bookedSeats": ["1b", "2a", "3c"]
+  },
+  {
+    "id": "bus-02",
+    "name": "Luxury Cruiser",
+    "type": "Non-AC Seater",
+    "photo": "/images/bus2.jpg",
+    "from": "Cherrapunjee",
+    "to": "Shillong",
+    "departureTime": "11:30 AM",
+    "arrivalTime": "01:00 PM",
+    "price": 300,
+    "totalSeats": 30,
+    "seatLayout": [
+      ["a", "s", "a"],
+      ["s", "a", "a"],
+      ["a", "s", "a"]
+    ],
+    "bookedSeats": ["1b"]
+  }
+]
