@@ -1,12 +1,12 @@
+// src/pages/TourDetails.jsx
 import React, { useContext, useEffect, useRef, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import avatar from "../assets/images/avatar.jpg";
 import { FaPeopleGroup, FaLocationDot } from "react-icons/fa6";
 import { FaStar, FaMapPin, FaCity } from "react-icons/fa";
 import CalculateAvg from "../utils/CalculateAvg";
 import { toast } from "react-toastify";
-import useFetch from "../hooks/useFetch";
-import BASE_URL from "../utils/config";
+import allTours from "../assets/data/allTours.json";
 import { AuthContext } from "../context/AuthContext";
 import { useNavigate } from "react-router-dom";
 
@@ -22,13 +22,15 @@ const TourDetails = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
 
-  const { apiData: tour } = useFetch(`${BASE_URL}/tour/${id}`, { method: "GET" });
+  // Get tour data from allTours.json
+  const tour = allTours.find(t => t._id === id);
+
 
   const {
     title = "",
     photo = "",
     desc = "",
-    reviews = "",
+    reviews = [],
     city = "",
     distance = "",
     maxGroupSize = "",
@@ -122,10 +124,13 @@ const TourDetails = () => {
             <button onClick={() => navigate('/hotel-booking')} className="bg-BaseColor text-white py-3 px-6 rounded-lg shadow hover:bg-BHoverColor">
               🏨 Book a Hotel
             </button>
-            <button onClick={() => navigate('/places-to-visit')} className="bg-BaseColor text-white py-3 px-6 rounded-lg shadow hover:bg-BHoverColor">
+            <Link
+              to={`/places-to-visit/${id}`}
+              className="bg-BaseColor text-white py-3 px-6 rounded-lg shadow hover:bg-BHoverColor text-center"
+            >
               📍 Places to Visit
-            </button>
-            <button onClick={() => navigate('/bus-booking')}className="bg-BaseColor text-white py-3 px-6 rounded-lg shadow hover:bg-BHoverColor">
+            </Link>
+            <button onClick={() => navigate('/bus-booking')} className="bg-BaseColor text-white py-3 px-6 rounded-lg shadow hover:bg-BHoverColor">
               🚌 Book a Bus
             </button>
           </div>

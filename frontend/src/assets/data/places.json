@@ -1,0 +1,50 @@
+[
+  {
+    "id": "shillong-1",
+    "tourId": "01",
+    "name": "Ward's Lake",
+    "location": "Shillong, Meghalaya",
+    "photo": "/images/wards-lake.jpg",
+    "description": "A beautiful man-made lake surrounded by a botanical garden."
+  },
+  {
+    "id": "shillong-2",
+    "tourId": "01",
+    "name": "Shillong Peak",
+    "location": "Shillong, Meghalaya",
+    "photo": "/images/shillong-peak.jpg",
+    "description": "The highest point in Shillong, offering panoramic views of the city."
+  },
+  {
+    "id": "cherapunjee-1",
+    "tourId": "02",
+    "name": "Nohkalikai Falls",
+    "location": "Cherrapunjee, Meghalaya",
+    "photo": "/images/nohkalikai-falls.jpg",
+    "description": "One of the tallest plunge waterfalls in India, with a tragic legend."
+  },
+  {
+    "id": "cherapunjee-2",
+    "tourId": "02",
+    "name": "Living Root Bridge",
+    "location": "Cherrapunjee, Meghalaya",
+    "photo": "/images/living-root-bridge.jpg",
+    "description": "A natural wonder, these bridges are grown from the roots of rubber trees."
+  },
+  {
+    "id": "mawllynong-1",
+    "tourId": "03",
+    "name": "Mawlynnong Village",
+    "location": "Mawlynnong, Meghalaya",
+    "photo": "/images/mawllynnong-village.jpg",
+    "description": "Known as 'God's Own Garden', it is one of the cleanest villages in Asia."
+  },
+  {
+    "id": "mawllynong-2",
+    "tourId": "03",
+    "name": "Jingmaham Living Root Bridge",
+    "location": "Mawlynnong, Meghalaya",
+    "photo": "/images/jingmaham-bridge.jpg",
+    "description": "Another impressive example of a living root bridge."
+  }
+]

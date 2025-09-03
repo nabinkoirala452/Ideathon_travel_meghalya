@@ -39,11 +39,13 @@ const Router = () => {
         <Route path='/tours/search' element={<SearchResultList />} />
 
         <Route path='/hotel-booking' element={<HotelBooking />} />
-        <Route path='/places-to-visit' element={<PlacesToVisit />} />
-        <Route path='/bus-booking' element={<BusBooking />} />
+         <Route path='/places-to-visit/:tourId' element={<PlacesToVisit />} />
+        <Route path='/bus-booking' element={<BusBooking />} />
+
         
     </Routes>
   )
 }
 
 export default Router
+
