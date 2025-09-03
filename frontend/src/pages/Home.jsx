@@ -15,16 +15,27 @@ import FaqList from "../components/Faq/FaqList";
 import Testimonials from "../components/Testimonials/Testimonials";
 import faqImg from "../assets/images/experience.png";
 import ImagesGallery from "../components/Gallery/Gallery";
+import PriceTracker from '../components/PriceTracker/PriceTracker';
+
+// Sample price data (you can replace this with dynamic API data)
+const priceData = [
+  { item: "Bottle of Water", price: "₹20–₹30" },
+  { item: "Local Meal", price: "₹100–₹200" },
+  { item: "Taxi 5km", price: "₹150–₹250" },
+  { item: "Bus Ride", price: "₹50–₹100" },
+  { item: "Hotel (per night)", price: "₹800–₹2000" },
+];
+
 const Home = () => {
   return (
     <>
       <div className="min-h-screen bg-cover md:pt-4 px-6 md:px-12 bg-center">
-        {/* {Search Section Starts} */}
+        {/* Search Section */}
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <div className="my-8">
               <h1 className="text-[33px] font-cursiveFont text-center md:text-[40px] md:text-start font-bold mb-4 ">
-                Enjoy The Nature  with{" "}
+                Enjoy The Nature with{" "}
                 <span className="text-BaseColor text-[40px] font-cursiveFont">
                   Visit Meghalaya
                 </span>
@@ -37,7 +48,6 @@ const Home = () => {
                 and create lasting memories. Your next adventure awaits with
                 TripsTravel!"
               </p>
-
               <p className="mobpara md:hidden ">
                 "Welcome to TripsTravel, your go-to destination for
                 unforgettable adventures! Explore diverse destinations, plan
@@ -49,21 +59,18 @@ const Home = () => {
             <div className="rounded-lg my-8 overflow-hidden">
               <img src={card01} className="object-cover h-full" alt="" />
             </div>
-
-            <div className="rounded-lg  overflow-hidden">
+            <div className="rounded-lg overflow-hidden">
               <img src={card02} className="object-cover h-full" alt="" />
             </div>
-
             <div className="rounded-lg my-8 overflow-hidden">
               <img src={card03} className="object-cover h-full" alt="" />
             </div>
           </div>
         </div>
         <SearchBar />
-      
       </div>
 
-      {/* {Services Section Starts} */}
+      {/* Services Section */}
       <section className="pb-12 px-6 md:px-12">
         <div className="container mx-auto mt-8 flex-col flex md:flex-row">
           <div className="mb-6 flex-shrink-0 mx-4 flex-1 min-w-[30%]">
@@ -77,13 +84,12 @@ const Home = () => {
               "Empowering Your Journey: Unrivaled Services Tailored to Elevate
               Your Experience."
             </p>
-            {/* Add Slider Component or Carousel Component if needed */}
           </div>
           <ServicesList className="flex-grow" />
         </div>
       </section>
 
-      {/* {Gallery Section Start} */}
+      {/* Gallery Section */}
       <section className="py-8 text-center px-6 md:px-12">
         <h1 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center">
           Our{" "}
@@ -97,7 +103,8 @@ const Home = () => {
         </p>
         <ImagesGallery />
       </section>
-      {/* {Gallery Section Ends} */}
+
+      {/* Featured Tours Section */}
       <section className="min-h-screen py-8 px-6 md:px-12">
         <h1 className="text-[40px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center text-BaseColor">
           Featured Tours
@@ -106,9 +113,7 @@ const Home = () => {
           "Embark on Unforgettable Journeys: Discover Our Featured Tours, Where
           Adventure Meets Extraordinary Experiences."
         </p>
-        <div className="">
-          <FeaturedTourList />
-        </div>
+        <FeaturedTourList />
         <div className="flex justify-center mt-10">
           <Link
             to="/tours"
@@ -118,10 +123,16 @@ const Home = () => {
           </Link>
         </div>
       </section>
-      {/* {Featured seactiton ends} */}
 
-      {/* {Testimonials section start} */}
-      <section className=" md:max-h-[550px]">
+      {/* Real Price Tracker Section */}
+      
+      <div>
+        <PriceTracker showLinkCard={true} />
+
+      </div>
+
+      {/* Testimonials Section */}
+      <section className="md:max-h-[550px]">
         <div className="py-8 px-6 md:px-12">
           <div className="mx-auto text-center xl:w-[470px]">
             <h1 className="text-[33px] md:text-[40px] font-cursiveFont font-bold mb-4 text-center ">
@@ -138,27 +149,23 @@ const Home = () => {
           <Testimonials />
         </div>
       </section>
-      {/* {Testimonials section ends} */}
 
-      {/* {faq Section Start} */}
+      {/* FAQ Section */}
       <section>
         <div className="px-6 md:px-12 py-6">
           <div className="flex justify-between gap-[50px] lg:gap-0">
             <div className="w-1/2 hidden md:block">
               <img src={faqImg} alt="" />
             </div>
-
             <div className="w-full md:w-1/2">
               <h2 className="text-3xl text-BaseColor font-cursiveFont  font-bold text-center">
                 Frequently Asked Question.
               </h2>
-
               <FaqList />
             </div>
           </div>
         </div>
       </section>
-      {/* {faq Section ends} */}
     </>
   );
 };
