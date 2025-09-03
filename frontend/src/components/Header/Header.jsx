@@ -52,17 +52,24 @@ const Header = () => {
     <header ref={headerRef} className="transition-all shadow-md duration-300">
       <nav className="container mx-auto px-5 flex justify-between items-center py-2">
         {role === "admin" ? (
-          <div className="h-8 md:h-12 md:hidden">
-            <img src={Logo} alt="" className="h-full" />
+          // MODIFICATION FOR ADMIN ROLE
+          <div className="flex items-center gap-2 md:hidden">
+            <img src={Logo} alt="Logo" className="h-8 md:h-12" />
+            <span className="text-lg font-bold text-gray-800">
+              Visit Meghalaya
+            </span>
           </div>
         ) : (
-          <div className="h-8 md:h-12">
-            <Link to={"/"}>
-              <img src={Logo} alt="" className="h-full" />
-            </Link>
-          </div>
+          // MODIFICATION FOR USER/GUEST ROLE
+          <Link to={"/"} className="flex items-center gap-2">
+            <img src={Logo} alt="Logo" className="h-8 md:h-12" />
+            <span className="text-lg md:text-xl font-bold text-BaseColor">
+              Visit Meghalaya
+            </span>
+          </Link>
         )}
 
+        {/* Mobile Menu Button + Username */}
         <div className="flex gap-2 md:hidden">
           {user ? (
             <div className="flex gap-3 items-center">
@@ -80,6 +87,7 @@ const Header = () => {
           />
         </div>
 
+        {/* Mobile Sidebar Menu */}
         {isMenuOpen && (
           <div className="md:hidden fixed text-center top-0 h-screen right-0 w-2/3 bg-gray-100 duration-300 p-4 shadow-md z-40">
             <IoClose
@@ -97,6 +105,9 @@ const Header = () => {
                   </Link>
                   <Link to="/about" onClick={handleMenuToggle}>
                     Gallery
+                  </Link>
+                  <Link to="/price" onClick={handleMenuToggle}>
+                    Price Track
                   </Link>
                   <Link to="/contact" onClick={handleMenuToggle}>
                     Contact
@@ -140,6 +151,7 @@ const Header = () => {
           </div>
         )}
 
+        {/* Desktop Navbar */}
         {role === "admin" ? (
           <ul className="md:flex hidden space-x-8">
             <Link to="/all-booking">Bookings</Link>
@@ -151,10 +163,12 @@ const Header = () => {
             <Link to="/home">Home</Link>
             <Link to="/tours">Tours</Link>
             <Link to="/about">Gallery</Link>
+            <Link to="/price">Price-Track</Link> {/* ✅ Added here */}
             <Link to="/contact">Contact</Link>
           </ul>
         )}
 
+        {/* Desktop User Section */}
         <div className="md:flex hidden items-center space-x-4">
           {user ? (
             <div className="flex gap-3 items-center">

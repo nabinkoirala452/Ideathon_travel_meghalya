@@ -17,6 +17,8 @@ import UpdateTours from '../Dashboard/AdminPanel/UpdateTour'
 import HotelBooking from "../pages/HotelBooking";
 import PlacesToVisit from "../pages/PlacesToVisit";
 import BusBooking from "../pages/BusBooking";
+import PriceTracker from '../components/PriceTracker/PriceTracker';
+import PriceTrack from '../pages/PriceTracker';
 
 
 const Router = () => {
@@ -40,7 +42,10 @@ const Router = () => {
 
         <Route path='/hotel-booking' element={<HotelBooking />} />
          <Route path='/places-to-visit/:tourId' element={<PlacesToVisit />} />
-        <Route path='/bus-booking' element={<BusBooking />} />
+        <Route path='/bus-booking' element=       {<BusBooking />} />
+
+        <Route path="/price" element={<PriceTracker />} />
+        <Route path="/price-tracker" element={<PriceTrack />} />
 
         
     </Routes>
