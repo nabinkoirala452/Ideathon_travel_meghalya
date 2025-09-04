@@ -1,17 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import placesData from "../assets/data/places.json";
 
 const PlacesToVisit = () => {
-  // Get the tour ID from the URL (e.g., "02")
   const { tourId } = useParams(); 
   const [filteredPlaces, setFilteredPlaces] = useState([]);
 
   useEffect(() => {
-    // 🚀 Filter the JSON data based on the tourId from the URL
     const places = placesData.filter(place => place.tourId === tourId);
     setFilteredPlaces(places);
-  }, [tourId]); // Re-run effect when the tourId changes
+  }, [tourId]);
 
   return (
     <section className="px-12 py-8">
@@ -25,15 +23,25 @@ const PlacesToVisit = () => {
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredPlaces.length > 0 ? (
           filteredPlaces.map(place => (
-            <div key={place.id} className="bg-gray-100 p-6 rounded-lg shadow-md">
-              <img src={place.photo} alt={place.name} className="w-full h-48 object-cover rounded-lg mb-4" />
+            <Link 
+              to={`/place/${place.id}`} 
+              key={place.id}
+              className="bg-gray-100 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 block"
+            >
+              <img 
+                src={place.photo} 
+                alt={place.name} 
+                className="w-full h-48 object-cover rounded-lg mb-4" 
+              />
               <h3 className="text-xl font-bold mb-2">{place.name}</h3>
               <p className="text-gray-600 text-sm mb-2">{place.location}</p>
               <p className="text-gray-700">{place.description}</p>
-            </div>
+            </Link>
           ))
         ) : (
-          <p className="text-center text-gray-500 col-span-full">No places found for this location.</p>
+          <p className="text-center text-gray-500 col-span-full">
+            No places found for this location.
+          </p>
         )}
       </div>
     </section>

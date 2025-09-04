@@ -19,6 +19,8 @@ import PlacesToVisit from "../pages/PlacesToVisit";
 import BusBooking from "../pages/BusBooking";
 import PriceTracker from '../components/PriceTracker/PriceTracker';
 import PriceTrack from '../pages/PriceTracker';
+import PlaceDetails from "../pages/PlaceDetails"; 
+
 
 
 const Router = () => {
@@ -46,6 +48,8 @@ const Router = () => {
 
         <Route path="/price" element={<PriceTracker />} />
         <Route path="/price-tracker" element={<PriceTrack />} />
+        <Route path="/tours/:tourId" element={<PlacesToVisit />} />
+        <Route path="/place/:id" element={<PlaceDetails />} />
 
         
     </Routes>

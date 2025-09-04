@@ -101,12 +101,12 @@ const Header = () => {
                     Home
                   </Link>
                   <Link to="/tours" onClick={handleMenuToggle}>
-                    Tours
+                    Plan Tours
                   </Link>
                   <Link to="/about" onClick={handleMenuToggle}>
                     Gallery
                   </Link>
-                  <Link to="/price" onClick={handleMenuToggle}>
+                  <Link to="/price-tracker" onClick={handleMenuToggle}>
                     Price Track
                   </Link>
                   <Link to="/contact" onClick={handleMenuToggle}>
@@ -161,7 +161,7 @@ const Header = () => {
         ) : (
           <ul className="md:flex hidden space-x-4">
             <Link to="/home">Home</Link>
-            <Link to="/tours">Tours</Link>
+            <Link to="/tours">Plan-Tours</Link>
             <Link to="/about">Gallery</Link>
             <Link to="/price">Price-Track</Link> {/* ✅ Added here */}
             <Link to="/contact">Contact</Link>
