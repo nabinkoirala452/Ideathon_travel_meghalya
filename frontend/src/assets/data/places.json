@@ -162,11 +162,6 @@
     "photo": "https://media1.thrillophilia.com/filestore/jrik304eb0umcr4sx22v18r55egu_download%20(60).png",
     "description": "A scenic vantage point on the Shillong–Cherrapunji route—offers sweeping views over mist-clad valleys and rolling hills."
   },
-
-
-
-
-
   {
     "id": "mawllynong-1",
     "tourId": "03",
@@ -182,5 +177,22 @@
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://www.indiantempletour.com/wp-content/uploads/2023/05/living-root-bridge.jpg",
     "description": "Another impressive example of a living root bridge."
+  },
+    {
+    "id": "mawllynong-3",
+    "tourId": "03",
+    "name": "Sky View Point",
+    "location": "Mawlynnong, Meghalaya",
+    "photo": "https://media1.thrillophilia.com/filestore/129jq3rht7mzv7qjyd38z591sxjn_shutterstock_1439330219.jpg",
+        "description": "An 85-foot high bamboo skywalk offering panoramic aerial views of the Bangladesh plains. Entry fee is INR 10, and it provides a unique perspective of the border region :cite[1]:cite[8]."
+  },
+    {
+    "id": "mawllynong-4",
+    "tourId": "03",
+    "name": "Balancing Rock (Maw-Ryngkew Sharatia)",
+    "location": "Mawlynnong, Meghalaya",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrtfq-WMHqgyQ0nPTOqDd_O3k2ETip71ecCg&s",
+    "description": "A natural rock formation where a small stone precariously balances a larger boulder, showcasing a fascinating geological phenomenon. It is a curious sight and often appeals to visitors."
   }
+  
 ]

@@ -1,6 +1,6 @@
 
 import TourCard from "../../shared/TourCard";
-import featuredToursData from "../../assets/data/toursData.json"
+import featuredToursData from "../../assets/data/allTours.json"
 
 
 const FeaturedTourList = () => {
