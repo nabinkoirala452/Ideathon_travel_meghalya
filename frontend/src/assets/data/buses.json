@@ -1,11 +1,12 @@
+
 [
   {
     "id": "bus-01",
     "name": "Super Express",
     "type": "AC Sleeper",
-    "photo": "/images/bus1.jpg",
+    "photo": "https://motownindia.com/images/Features-and-Travel/The-Volvo-9600-15-metre-sleeper-bus-travelling-first-class-on-wheels-Roy-Punnoose-Tharyan-1-593.jpg",
     "from": "Shillong",
-    "to": "Guwahati",
+    "to": "Siliguri",
     "departureTime": "09:00 AM",
     "arrivalTime": "12:00 PM",
     "price": 500,
@@ -22,7 +23,7 @@
     "id": "bus-02",
     "name": "Luxury Cruiser",
     "type": "Non-AC Seater",
-    "photo": "/images/bus2.jpg",
+    "photo": "https://5.imimg.com/data5/XS/TG/MY-3112692/49-seater-new-brand-non-ac-bus-coach-on-rent.jpeg",
     "from": "Cherrapunjee",
     "to": "Shillong",
     "departureTime": "11:30 AM",
@@ -35,5 +36,41 @@
       ["a", "s", "a"]
     ],
     "bookedSeats": ["1b"]
+  },
+  {
+    "id": "bus-03",
+    "name": "Green City Bus",
+    "type": "Non-AC Seater",
+    "photo": "https://asombarta.com/wp-content/uploads/2024/02/Bus-1-scaled.jpg",
+    "from": "Guwahati",
+    "to": "Shillong",
+    "departureTime": "02:00 PM",
+    "arrivalTime": "05:00 PM",
+    "price": 450,
+    "totalSeats": 35,
+    "seatLayout": [
+      ["a", "s", "a", "s", "a"],
+      ["a", "s", "a", "s", "a"],
+      ["s", "a", "s", "a", "s"]
+    ],
+    "bookedSeats": ["1a", "2b", "3e"]
+  },
+  {
+    "id": "bus-04",
+    "name": "Hills King",
+    "type": "AC Seater",
+    "photo": "https://www.kingstravelsvizag.com/wp-content/uploads/2024/12/services1.jpg",
+    "from": "Shillong",
+    "to": "Cherrapunjee",
+    "departureTime": "07:30 AM",
+    "arrivalTime": "09:00 AM",
+    "price": 250,
+    "totalSeats": 25,
+    "seatLayout": [
+      ["a", "s", "s", "a"],
+      ["s", "a", "a", "s"],
+      ["a", "s", "a", "s"]
+    ],
+    "bookedSeats": ["1a", "2c"]
   }
 ]
