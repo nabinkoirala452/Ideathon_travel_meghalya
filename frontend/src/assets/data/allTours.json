@@ -4,13 +4,31 @@
     "title": "Shillong",
     "city": "East Khasi Hills",
     "address": "Shillong, Meghalaya",
-    
     "maxGroupSize": 10,
     "desc": "Shillong – The Scotland of the East, famous for its rolling hills, vibrant culture, and colonial charm.",
     "photo": "https://assets.cntraveller.in/photos/66961b934b7ee0c8277f8277/16:9/w_960,c_limit/Shillong%20lead.jpg",
     "distance": 12,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Priya Sharma",
+        "reviewText": "A beautiful city with a calm vibe. Loved the local food!",
+        "rating": 5,
+        "createdAt": "2025-09-01T10:00:00Z"
+      },
+      {
+        "username": "Rahul Singh",
+        "reviewText": "Enjoyed the colonial architecture and fresh air. Will visit again.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T11:00:00Z"
+      },
+      {
+        "username": "Ananya Rao",
+        "reviewText": "Good experience, but a bit crowded during peak season.",
+        "rating": 4,
+        "createdAt": "2025-09-03T12:00:00Z"
+      }
+    ]
   },
   {
     "_id": "02",
@@ -23,7 +41,44 @@
     "photo": "https://travenjo.com/wp-content/uploads/2022/06/Seven-Sisters-Falls-1-gaimg.jpg?x58748",
     "distance": 20,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "John Doe",
+        "reviewText": "This is a great place to visit!",
+        "rating": 5,
+        "createdAt": "2025-09-06T12:00:00Z"
+      },
+      {
+        "username": "Jane Smith",
+        "reviewText": "Cherrapunji is breathtaking.",
+        "rating": 4.5,
+        "createdAt": "2025-09-05T12:00:00Z"
+      },
+      {
+        "username": "Michael Brown",
+        "reviewText": "The waterfalls are stunning. A must-see for nature lovers.",
+        "rating": 5,
+        "createdAt": "2025-09-04T12:30:00Z"
+      },
+      {
+        "username": "Sara Lee",
+        "reviewText": "The living root bridges are a unique experience. Definitely worth the trek.",
+        "rating": 4.5,
+        "createdAt": "2025-09-03T11:45:00Z"
+      },
+      {
+        "username": "David Chen",
+        "reviewText": "Rainy, but beautiful. The caves were a cool adventure.",
+        "rating": 4,
+        "createdAt": "2025-09-02T10:15:00Z"
+      },
+      {
+        "username": "Emily White",
+        "reviewText": "Highly recommend visiting during the monsoon season for the best views.",
+        "rating": 5,
+        "createdAt": "2025-09-01T09:30:00Z"
+      }
+    ]
   },
   {
     "_id": "03",
@@ -36,7 +91,26 @@
     "photo": "https://assets.traveltriangle.com/blog/wp-content/uploads/2016/11/Mawlynnong.jpg",
     "distance": 15,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Ravi Kumar",
+        "reviewText": "The village is incredibly clean and serene. A true gem.",
+        "rating": 5,
+        "createdAt": "2025-09-03T13:00:00Z"
+      },
+      {
+        "username": "Pooja Gupta",
+        "reviewText": "Loved the skywalk. The view was breathtaking.",
+        "rating": 4.5,
+        "createdAt": "2025-09-04T14:30:00Z"
+      },
+      {
+        "username": "Anil Singh",
+        "reviewText": "A peaceful and well-maintained place. The locals are very friendly.",
+        "rating": 5,
+        "createdAt": "2025-09-05T15:45:00Z"
+      }
+    ]
   },
   {
     "_id": "04",
@@ -49,7 +123,26 @@
     "photo": "https://www.kajaawa.com/wp-content/uploads/2022/06/Nartiang-Monoliths-1-kaga.jpg",
     "distance": 18,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Sunita Das",
+        "reviewText": "The Sacred Groves are a unique experience. So much history!",
+        "rating": 5,
+        "createdAt": "2025-09-01T14:00:00Z"
+      },
+      {
+        "username": "Vikram Sen",
+        "reviewText": "Our guide was very informative about the local culture. Highly recommend.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T15:30:00Z"
+      },
+      {
+        "username": "Neha Varma",
+        "reviewText": "A very spiritual and peaceful place. Great for a quiet walk.",
+        "rating": 5,
+        "createdAt": "2025-09-03T16:45:00Z"
+      }
+    ]
   },
   {
     "_id": "05",
@@ -62,7 +155,26 @@
     "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/19/17/70/walk-around-the-village.jpg?w=1000&h=1000&s=1",
     "distance": 22,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Sameer Khan",
+        "reviewText": "Beautiful landscapes and a great starting point for exploring the hills.",
+        "rating": 4,
+        "createdAt": "2025-09-01T15:00:00Z"
+      },
+      {
+        "username": "Anjali Patil",
+        "reviewText": "The waterfalls near Nongstoin are spectacular. A hidden gem.",
+        "rating": 5,
+        "createdAt": "2025-09-02T16:30:00Z"
+      },
+      {
+        "username": "Gaurav Singh",
+        "reviewText": "A quiet and peaceful place away from the tourist crowds.",
+        "rating": 4,
+        "createdAt": "2025-09-03T17:45:00Z"
+      }
+    ]
   },
   {
     "_id": "06",
@@ -75,7 +187,26 @@
     "photo": "https://www.taleof2backpackers.com/wp-content/uploads/2018/05/Nonghkhnum-Island_Meghalaya-7.jpg",
     "distance": 25,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Akshay Jain",
+        "reviewText": "A beautiful place for a picnic. The river is very clean.",
+        "rating": 5,
+        "createdAt": "2025-09-01T16:00:00Z"
+      },
+      {
+        "username": "Divya Rao",
+        "reviewText": "The island is serene and perfect for a relaxing day.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T17:30:00Z"
+      },
+      {
+        "username": "Manish Sharma",
+        "reviewText": "A great spot for photography. Loved the scenic views.",
+        "rating": 5,
+        "createdAt": "2025-09-03T18:45:00Z"
+      }
+    ]
   },
   {
     "_id": "07",
@@ -88,7 +219,26 @@
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrlE-3LhW4UV2Q__6Z8D-OzCrhHZocGNVQ6g&s",
     "distance": 30,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Rohit Kumar",
+        "reviewText": "A nice stopover on the way to Shillong. Beautiful orchards.",
+        "rating": 4,
+        "createdAt": "2025-09-01T17:00:00Z"
+      },
+      {
+        "username": "Shalini Gupta",
+        "reviewText": "Umiam Lake is close by, which makes this a great location.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T18:30:00Z"
+      },
+      {
+        "username": "Vikram Sen",
+        "reviewText": "The town has a very calm and pleasant atmosphere.",
+        "rating": 4,
+        "createdAt": "2025-09-03T19:45:00Z"
+      }
+    ]
   },
   {
     "_id": "08",
@@ -101,7 +251,26 @@
     "photo": "https://travenjo.com/wp-content/uploads/2019/06/UmiamBarapani-Lake-Shillong.jpg?x58748",
     "distance": 10,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Anil Reddy",
+        "reviewText": "The lake is beautiful, especially during sunset. Great for boating.",
+        "rating": 5,
+        "createdAt": "2025-09-01T18:00:00Z"
+      },
+      {
+        "username": "Pooja Varma",
+        "reviewText": "Water sports were fun. A very lively place.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T19:30:00Z"
+      },
+      {
+        "username": "Arun Kumar",
+        "reviewText": "A relaxing spot to spend an afternoon. Highly recommended.",
+        "rating": 5,
+        "createdAt": "2025-09-03T20:45:00Z"
+      }
+    ]
   },
   {
     "_id": "09",
@@ -114,7 +283,26 @@
     "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/98/61/2a/20191230-135003-largejpg.jpg?w=1100&h=1100&s=1",
     "distance": 28,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Asha Roy",
+        "reviewText": "Loved the local culture and the festivals. A very authentic experience.",
+        "rating": 5,
+        "createdAt": "2025-09-01T19:00:00Z"
+      },
+      {
+        "username": "Deepak Sen",
+        "reviewText": "The town has beautiful lakes and waterfalls. A peaceful place.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T20:30:00Z"
+      },
+      {
+        "username": "Swati Sharma",
+        "reviewText": "A great place to learn about the Jaintia culture.",
+        "rating": 4,
+        "createdAt": "2025-09-03T21:45:00Z"
+      }
+    ]
   },
   {
     "_id": "10",
@@ -127,7 +315,26 @@
     "photo": "https://assamholidays.com/wp-content/uploads/2023/06/Umgnot-River-Dawki-1.jpg",
     "distance": 35,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Suresh Patil",
+        "reviewText": "The Umngot River is so clear, it feels like the boats are floating in the air. A magical experience.",
+        "rating": 5,
+        "createdAt": "2025-09-01T20:00:00Z"
+      },
+      {
+        "username": "Rani Deshmukh",
+        "reviewText": "Boating on the river was the highlight of our trip. Absolutely stunning.",
+        "rating": 5,
+        "createdAt": "2025-09-02T21:30:00Z"
+      },
+      {
+        "username": "Arjun Kumar",
+        "reviewText": "The water is truly crystal-clear. A must-visit place.",
+        "rating": 5,
+        "createdAt": "2025-09-03T22:45:00Z"
+      }
+    ]
   },
   {
     "_id": "11",
@@ -140,45 +347,118 @@
     "photo": "https://storage.googleapis.com/stateless-www-justwravel-com/2017/06/Tura_Meghalaya_qugld8.jpg",
     "distance": 40,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Kabir Khan",
+        "reviewText": "Tura Peak offers great views. A nice place for trekking.",
+        "rating": 4,
+        "createdAt": "2025-09-01T21:00:00Z"
+      },
+      {
+        "username": "Fatima Begum",
+        "reviewText": "The Nokrek Biosphere Reserve is beautiful. Loved the wildlife.",
+        "rating": 5,
+        "createdAt": "2025-09-02T22:30:00Z"
+      },
+      {
+        "username": "Aman Singh",
+        "reviewText": "A very adventurous place. Great for a quiet getaway.",
+        "rating": 4,
+        "createdAt": "2025-09-03T23:45:00Z"
+      }
+    ]
   },
   {
     "_id": "12",
     "title": "Williamnagar",
     "city": "East Garo Hills",
     "address": "Williamnagar, Meghalaya",
-    
     "maxGroupSize": 8,
     "desc": "Williamnagar – A scenic town by the Simsang River, known for cultural festivals and eco-tourism.",
     "photo": "https://www.holidify.com/images/bgImages/WILLIAMNAGAR.jpg",
     "distance": 38,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Vijay Kumar",
+        "reviewText": "The town is scenic and the cultural festivals are a must-see.",
+        "rating": 4.5,
+        "createdAt": "2025-09-01T22:00:00Z"
+      },
+      {
+        "username": "Shreya Das",
+        "reviewText": "The Simsang River is beautiful. A very peaceful place.",
+        "rating": 5,
+        "createdAt": "2025-09-02T23:30:00Z"
+      },
+      {
+        "username": "Rohan Sharma",
+        "reviewText": "A great place for eco-tourism. I learned a lot about the local culture.",
+        "rating": 4,
+        "createdAt": "2025-09-03T24:45:00Z"
+      }
+    ]
   },
   {
     "_id": "13",
     "title": "Baghmara",
     "city": "South Garo Hills",
     "address": "Baghmara, Meghalaya",
-    
     "maxGroupSize": 6,
     "desc": "Baghmara – Famous for Balpakram National Park and caves rich in biodiversity.",
     "photo": "https://www.kiomoi.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fkmadmin%2Fimage%2Fupload%2Fc_scale%2Cw_500%2Ff_auto%2Fv1723115682%2Fkiomoi%2F2022040441-1024x724_4496.webp&w=640&q=75",
     "distance": 45,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Sana Khan",
+        "reviewText": "Balpakram National Park is amazing! Saw some incredible wildlife.",
+        "rating": 5,
+        "createdAt": "2025-09-01T23:00:00Z"
+      },
+      {
+        "username": "Imran Ali",
+        "reviewText": "The caves are a must-see. A very unique experience.",
+        "rating": 4.5,
+        "createdAt": "2025-09-02T24:30:00Z"
+      },
+      {
+        "username": "Nazia Begum",
+        "reviewText": "The biodiversity is incredible. A great place for nature lovers.",
+        "rating": 5,
+        "createdAt": "2025-09-03T25:45:00Z"
+      }
+    ]
   },
   {
     "_id": "14",
     "title": "Balpakram",
     "city": "South Garo Hills",
     "address": "Balpakram, Meghalaya",
-    
     "maxGroupSize": 10,
     "desc": "Balpakram – Known as the Grand Canyon of the East, rich in wildlife and legends.",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_BJkZDtrD3tXIrXq4uL02MzZJtB4vUwWfg&s",
     "distance": 50,
     "featured": false,
-    "reviews": []
+    "reviews": [
+      {
+        "username": "Ravi Kumar",
+        "reviewText": "A beautiful place with a rich history. The legends are fascinating.",
+        "rating": 5,
+        "createdAt": "2025-09-01T24:00:00Z"
+      },
+      {
+        "username": "Pooja Gupta",
+        "reviewText": "The landscapes are breathtaking. I felt like I was in a different world.",
+        "rating": 5,
+        "createdAt": "2025-09-02T25:30:00Z"
+      },
+      {
+        "username": "Anil Singh",
+        "reviewText": "A very adventurous place. Great for a quiet walk.",
+        "rating": 4,
+        "createdAt": "2025-09-03T26:45:00Z"
+      }
+    ]
   }
 ]

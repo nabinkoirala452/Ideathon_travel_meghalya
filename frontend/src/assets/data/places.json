@@ -5,7 +5,8 @@
     "name": "Ward's Lake",
     "location": "Shillong, Meghalaya",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0X3apcfmyjoSjpi1JYnLqX_6bTKInQFtqQ&s",
-    "description": "A beautiful man-made lake surrounded by a botanical garden."
+    "description": "A beautiful man-made lake surrounded by a botanical garden.",
+    "CrowdStatus": "Heavily Crowded"
   },
   {
     "id": "shillong-2",
@@ -13,17 +14,17 @@
     "name": "Shillong Peak",
     "location": "Shillong, Meghalaya",
     "photo": "https://www.trawell.in/admin/images/upload/64849531Shillong_Shillong_View_Point_Main.jpg",
-    "description": "The highest point in Shillong, offering panoramic views of the city."
-
+    "description": "The highest point in Shillong, offering panoramic views of the city.",
+    "CrowdStatus": "Crowded"
   },
- 
   {
     "id": "shillong-3",
     "tourId": "01",
     "name": "Elephant Falls",
     "location": "Shillong, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/elephant-falls-shillong-meghalaya-1-attr-hero?qlt=82&ts=1751460572862",
-    "description": "A picturesque three-tiered waterfall surrounded by lush greenery, named after a rock formation resembling an elephant. The well-maintained pathways with railings make it accessible for visitors to enjoy the serene atmosphere and perfect photography opportunities."
+    "description": "A picturesque three-tiered waterfall surrounded by lush greenery, named after a rock formation resembling an elephant. The well-maintained pathways with railings make it accessible for visitors to enjoy the serene atmosphere and perfect photography opportunities.",
+    "CrowdStatus": "Not Crowded"
   },
   {
     "id": "shillong-4",
@@ -31,7 +32,8 @@
     "name": "Laitlum Canyons",
     "location": "East Khasi Hills, Meghalaya",
     "photo": "https://en-media.thebetterindia.com/uploads/2016/07/blog.jpg",
-    "description": "Known as the 'Grand Canyon of the East,' this panoramic viewpoint offers breathtaking 360-degree views of rolling hills, deep valleys, and swirling clouds. The rugged trails through lush greenery provide an immersive experience in nature's grandeur, though visitors should note ongoing construction concerns in the area."
+    "description": "Known as the 'Grand Canyon of the East,' this panoramic viewpoint offers breathtaking 360-degree views of rolling hills, deep valleys, and swirling clouds. The rugged trails through lush greenery provide an immersive experience in nature's grandeur, though visitors should note ongoing construction concerns in the area.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "shillong-5",
@@ -39,7 +41,8 @@
     "name": "Mawphlang Sacred Forest",
     "location": "East Khasi Hills, Meghalaya",
     "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/48/45/b4/friends.jpg?w=1400&h=-1&s=1",
-    "description": "An ancient preserved forest considered sacred by the Khasi people, featuring a diverse ecosystem of rare flora and fauna. Local guides share insights into indigenous cultural rituals and traditions, making it both an ecological and cultural immersion experience."
+    "description": "An ancient preserved forest considered sacred by the Khasi people, featuring a diverse ecosystem of rare flora and fauna. Local guides share insights into indigenous cultural rituals and traditions, making it both an ecological and cultural immersion experience.",
+    "CrowdStatus": "Not Crowded"
   },
   {
     "id": "shillong-6",
@@ -47,7 +50,8 @@
     "name": "Umiam Lake",
     "location": "Shillong, Meghalaya",
     "photo": "https://www.meghalayatourcabs.com/wp-content/uploads/2024/08/0_IlS1XVEjfpQ2K_JG-1.jpg",
-    "description": "A massive man-made reservoir surrounded by lush green hills, offering spectacular panoramic views. Visitors can enjoy boating, water sports, or simply relax while admiring the scenic beauty. The nearby canopy walk through forest areas provides a unique perspective of the landscape."
+    "description": "A massive man-made reservoir surrounded by lush green hills, offering spectacular panoramic views. Visitors can enjoy boating, water sports, or simply relax while admiring the scenic beauty. The nearby canopy walk through forest areas provides a unique perspective of the landscape.",
+    "CrowdStatus": "Heavily Crowded"
   },
   {
     "id": "shillong-7",
@@ -55,7 +59,8 @@
     "name": "Don Bosco Museum",
     "location": "Shillong, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/don-bosco-museum-shillong-meghalaya-2-attr-hero?qlt=82&ts=1742155422455",
-    "description": "A seven-story cultural museum showcasing the rich heritage of Northeast India through extensive exhibits of artifacts, traditional costumes, and historical displays. The museum offers comprehensive insights into the tribal cultures and traditions of the region's indigenous communities."
+    "description": "A seven-story cultural museum showcasing the rich heritage of Northeast India through extensive exhibits of artifacts, traditional costumes, and historical displays. The museum offers comprehensive insights into the tribal cultures and traditions of the region's indigenous communities.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "shillong-8",
@@ -63,7 +68,8 @@
     "name": "Police Bazaar",
     "location": "Shillong, Meghalaya",
     "photo": "https://www.trawell.in/admin/images/upload/648495434Shillong_Police_Bazar_Main.jpg",
-    "description": "The bustling commercial heart of Shillong featuring numerous shops, stalls, and boutiques selling traditional Khasi dresses, handwoven shawls, exquisite handicrafts, organic spices, and local products. This vibrant market provides an authentic experience of local life and culture."
+    "description": "The bustling commercial heart of Shillong featuring numerous shops, stalls, and boutiques selling traditional Khasi dresses, handwoven shawls, exquisite handicrafts, organic spices, and local products. This vibrant market provides an authentic experience of local life and culture.",
+    "CrowdStatus": "Heavily Crowded"
   },
   {
     "id": "shillong-9",
@@ -71,7 +77,8 @@
     "name": "Lady Hydari Park",
     "location": "Shillong, Meghalaya",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrX_8fuRRoFl5rL__uid-papCCmow0XILw8WiCd0m4Ufgvi42aveXsHMf0mvkLPQoFIqV8jDdlnrCH4OktSMPiFyaOOnRflOFwOktCATGv8vseYkl8a7TpdUVV-Bl6JbeL_J-6SZA=s1360-w1360-h1020-rw",
-    "description": "A beautifully maintained park named after the wife of the first Governor of Assam, featuring lush gardens, a mini zoo, and a children's playground. It is known for its vibrant flower beds, serene walking paths, and colonial-era charm, making it a perfect spot for families and nature lovers."
+    "description": "A beautifully maintained park named after the wife of the first Governor of Assam, featuring lush gardens, a mini zoo, and a children's playground. It is known for its vibrant flower beds, serene walking paths, and colonial-era charm, making it a perfect spot for families and nature lovers.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "shillong-10",
@@ -79,7 +86,8 @@
     "name": "Sweet Falls",
     "location": "Shillong, Meghalaya",
     "photo": "https://www.holidify.com/images/cmsuploads/compressed/159780654390b24665ab_20220107192847.jpeg",
-    "description": "One of the steepest and most vertical waterfalls in Meghalaya, known for its impressive drop and misty surroundings. Located near Happy Valley, it offers a peaceful and less-crowded experience, though the path can be slippery and requires caution. The waterfall is surrounded by local folklore and provides a serene natural escape."
+    "description": "One of the steepest and most vertical waterfalls in Meghalaya, known for its impressive drop and misty surroundings. Located near Happy Valley, it offers a peaceful and less-crowded experience, though the path can be slippery and requires caution. The waterfall is surrounded by local folklore and provides a serene natural escape.",
+    "CrowdStatus": "Not Crowded"
   },
 
   {
@@ -88,7 +96,8 @@
     "name": "Nohkalikai Falls",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://www.trawell.in/admin/images/upload/195195923Cherrapunji_Nohkalikai_Waterfalls_Main.jpg",
-    "description": "One of the tallest plunge waterfalls in India, with a tragic legend."
+    "description": "One of the tallest plunge waterfalls in India, with a tragic legend.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "cherapunjee-2",
@@ -96,7 +105,8 @@
     "name": "Living Root Bridge",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://img.etimg.com/thumb/msid-90525128,width-300,height-225,imgsize-205818,resizemode-75/meghalaya-root-bridges.jpg",
-    "description": "A natural wonder, these bridges are grown from the roots of rubber trees."
+    "description": "A natural wonder, these bridges are grown from the roots of rubber trees.",
+    "CrowdStatus": "Not Crowded"
   },
   {
     "id": "cherapunjee-3",
@@ -104,7 +114,8 @@
     "name": "Seven Sisters Falls (Mawsmai Falls)",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://media1.thrillophilia.com/filestore/s3qn155qg6uuqqiylem58yq9x1l2_shutterstock_2321755807.jpg",
-    "description": "A beautiful seven-segmented waterfall—during monsoon, all seven streams roar down the cliff in unison, creating a mesmerizing natural spectacle."
+    "description": "A beautiful seven-segmented waterfall—during monsoon, all seven streams roar down the cliff in unison, creating a mesmerizing natural spectacle.",
+    "CrowdStatus": "Heavily Crowded"
   },
   {
     "id": "cherapunjee-4",
@@ -112,7 +123,8 @@
     "name": "Dainthlen Falls",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ff/03/86/img-20170723-132854-1.jpg?w=900&h=-1&s=1",
-    "description": "A striking waterfall emerging from a natural rock formation—legend says a warrior was transformed into the fall, adding a mystical vibe."
+    "description": "A striking waterfall emerging from a natural rock formation—legend says a warrior was transformed into the fall, adding a mystical vibe.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "cherapunjee-5",
@@ -120,7 +132,8 @@
     "name": "Mawphlang Sacred Forest",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/inside-the-sacred-masthead-hero?qlt=82&ts=1742183190852",
-    "description": "A sacred grove revered by locals, filled with rare flora and spiritual significance—a serene retreat into nature and Khasi tradition."
+    "description": "A sacred grove revered by locals, filled with rare flora and spiritual significance—a serene retreat into nature and Khasi tradition.",
+    "CrowdStatus": "Not Crowded"
   },
   {
     "id": "cherapunjee-6",
@@ -128,7 +141,8 @@
     "name": "Krem Mawmluh (Mawmluh Cave)",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://i0.wp.com/wanderalonewithsin.com/wp-content/uploads/2025/02/Mawmluh4.jpg?fit=733%2C550&ssl=1",
-    "description": "One of the fascinating limestone cave systems in the region—formed by years of chemical weathering, perfect for exploration."
+    "description": "One of the fascinating limestone cave systems in the region—formed by years of chemical weathering, perfect for exploration.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "cherapunjee-7",
@@ -136,7 +150,8 @@
     "name": "Kynrem Falls",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://wanderon-images.gumlet.io/blogs/new/2024/10/52230129150_9466f7623d_o-scaled.jpg",
-    "description": "A majestic three-tiered waterfall dropping ~305 m inside Thangkharang Park—one of India’s tallest and most photogenic cascades."
+    "description": "A majestic three-tiered waterfall dropping ~305 m inside Thangkharang Park—one of India’s tallest and most photogenic cascades.",
+    "CrowdStatus": "Heavily Crowded"
   },
   {
     "id": "cherapunjee-8",
@@ -144,7 +159,8 @@
     "name": "Rangthylliang 1 Root Bridge",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFr1_D8tpSubABxkRNFV1SycFVjDWwHSOTOA&s",
-    "description": "The longest living root bridge—stretching over 50 m and suspended 30 m above the ground—a marvel of natural architecture."
+    "description": "The longest living root bridge—stretching over 50 m and suspended 30 m above the ground—a marvel of natural architecture.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "cherapunjee-9",
@@ -152,7 +168,8 @@
     "name": "Nongsawlia Presbyterian Church",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/nongsawlia-presbyterian-church-cherrapunjee-meghalaya-1-attr-hero?qlt=82&ts=1742155649650",
-    "description": "Built in 1841 by Welsh missionaries, this historic church offers a glimpse into colonial-era spirituality and local culture."
+    "description": "Built in 1841 by Welsh missionaries, this historic church offers a glimpse into colonial-era spirituality and local culture.",
+    "CrowdStatus": "Not Crowded"
   },
   {
     "id": "cherapunjee-10",
@@ -160,7 +177,8 @@
     "name": "Mawkdok Dympep Valley Viewpoint",
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://media1.thrillophilia.com/filestore/jrik304eb0umcr4sx22v18r55egu_download%20(60).png",
-    "description": "A scenic vantage point on the Shillong–Cherrapunji route—offers sweeping views over mist-clad valleys and rolling hills."
+    "description": "A scenic vantage point on the Shillong–Cherrapunji route—offers sweeping views over mist-clad valleys and rolling hills.",
+    "CrowdStatus": "Heavily Crowded"
   },
   {
     "id": "mawllynong-1",
@@ -168,7 +186,8 @@
     "name": "Mawlynnong Village",
     "location": "Mawlynnong, Meghalaya",
     "photo":"https://www.akkcrusier.com/blog/wp-content/uploads/2023/08/Mawlynnong-The-cleanest-city-in-Asia-1200x710.jpg",
-    "description": "Known as 'God's Own Garden', it is one of the cleanest villages in Asia."
+    "description": "Known as 'God's Own Garden', it is one of the cleanest villages in Asia.",
+    "CrowdStatus": "Crowded"
   },
   {
     "id": "mawllynong-2",
@@ -176,23 +195,26 @@
     "name": "Jingmaham Living Root Bridge",
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://www.indiantempletour.com/wp-content/uploads/2023/05/living-root-bridge.jpg",
-    "description": "Another impressive example of a living root bridge."
+    "description": "Another impressive example of a living root bridge.",
+    "CrowdStatus": "Not Crowded"
   },
-    {
+  {
     "id": "mawllynong-3",
     "tourId": "03",
     "name": "Sky View Point",
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://media1.thrillophilia.com/filestore/129jq3rht7mzv7qjyd38z591sxjn_shutterstock_1439330219.jpg",
-        "description": "An 85-foot high bamboo skywalk offering panoramic aerial views of the Bangladesh plains. Entry fee is INR 10, and it provides a unique perspective of the border region :cite[1]:cite[8]."
+    "description": "An 85-foot high bamboo skywalk offering panoramic aerial views of the Bangladesh plains. Entry fee is INR 10, and it provides a unique perspective of the border region :cite[1]:cite[8].",
+    "CrowdStatus": "Heavily Crowded"
   },
-    {
+  {
     "id": "mawllynong-4",
     "tourId": "03",
     "name": "Balancing Rock (Maw-Ryngkew Sharatia)",
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrtfq-WMHqgyQ0nPTOqDd_O3k2ETip71ecCg&s",
-    "description": "A natural rock formation where a small stone precariously balances a larger boulder, showcasing a fascinating geological phenomenon. It is a curious sight and often appeals to visitors."
+    "description": "A natural rock formation where a small stone precariously balances a larger boulder, showcasing a fascinating geological phenomenon. It is a curious sight and often appeals to visitors.",
+    "CrowdStatus": "Crowded"
   }
 
 ]

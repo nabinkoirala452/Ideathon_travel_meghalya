@@ -1,0 +1,75 @@
+
+
+
+[
+  {
+    "id": "guide-1",
+    "name": "Alex Kharlukhi",
+    "placeId": "cherapunjee-1",
+    "age": 35,
+    "gender": "Male",
+    "bio": "A passionate local guide with over 10 years of experience exploring Cherrapunji's hidden waterfalls and living root bridges.",
+    "photo": "../images/boy-icon.png",
+    "reviews": [
+      { "rating": 5, "comment": "Alex was amazing! So knowledgeable and friendly." },
+      { "rating": 5, "comment": "He made our trip to the waterfalls unforgettable." }
+    ]
+  },
+  {
+    "id": "guide-2",
+    "name": "Sarah Warjri",
+    "placeId": "cherapunjee-1",
+    "age": 28,
+    "gender": "Female",
+    "bio": "Specializes in caving and adventure tours. Knows all the best spots for photography.",
+    "photo": "../assets/images/girl-icon.png",
+    "reviews": [
+      { "rating": 4, "comment": "Very energetic and an excellent guide." }
+    ]
+  },
+  {
+    "id": "guide-3",
+    "name": "James Rymbai",
+    "placeId": "shillong-1",
+    "age": 42,
+    "gender": "Male",
+    "bio": "Your personal guide to Shillong's rich culture and history. Fluent in English and Khasi.",
+    "photo": "../assets/images/boy-icon.png",
+    "reviews": []
+  },
+  {
+    "id": "guide-4",
+    "name": "Elina Laitflang",
+    "placeId": "mawllynong-1",
+    "age": 30,
+    "gender": "Female",
+    "bio": "An expert on the flora and fauna of Mawlynnong, India's cleanest village.",
+    "photo": "../assets/images/girl-icon.png",
+    "reviews": []
+  },
+  {
+    "id": "guide-5",
+    "name": "David Syiem",
+    "placeId": "cherapunjee-1",
+    "age": 45,
+    "gender": "Male",
+    "bio": "An experienced guide specializing in trekking and hiking tours around the Cherrapunjee area. He has extensive knowledge of the local trails and is an avid bird watcher.",
+    "photo": "../assets/images/boy-icon.png",
+    "reviews": [
+      { "rating": 5, "comment": "David's knowledge of the trails was incredible. We saw so many amazing birds!" },
+      { "rating": 4, "comment": "A very patient and helpful guide." }
+    ]
+  },
+  {
+    "id": "guide-6",
+    "name": "Pynbiang Nongrum",
+    "placeId": "cherapunjee-1",
+    "age": 32,
+    "gender": "Female",
+    "bio": "Known for her expertise in local folklore and sustainable tourism. She offers a unique perspective on the region's cultural heritage and is passionate about preserving its natural beauty.",
+    "photo": "../assets/images/girl-icon.png",
+    "reviews": [
+      { "rating": 5, "comment": "A wonderful storyteller! Learned so much about the local culture." }
+    ]
+  }
+]

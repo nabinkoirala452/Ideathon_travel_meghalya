@@ -1,6 +1,32 @@
+// /** @type {import('tailwindcss').Config} */
+// export default {
+//   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+//   theme: {
+//     extend: {
+//       colors: {
+//         BaseColor: "#B71C1C",
+//         GreenColor: "#388E3C",
+//         GrayColor: "#455A64",
+//         PurpleColor: "#880E4F",
+//         BHoverColor: "#D32F2F",
+//       },
+//       fontFamily: {
+//         cursiveFont: ["Island Moments", "cursive"],
+//         paraFont: ["Kalam", "cursive"],
+//       },
+//     },
+//   },
+//   plugins: [],
+// };
+
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
@@ -11,10 +37,20 @@ export default {
         BHoverColor: "#D32F2F",
       },
       fontFamily: {
-        cursiveFont: ["Island Moments", "cursive"],
+        cursivefont: ["Island Moments", "cursive"],
         paraFont: ["Kalam", "cursive"],
+      },
+      // 🚀 Add the keyframes and animation properties here
+      keyframes: {
+        pulse: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.1)' },
+        }
+      },
+      animation: {
+        pulse: 'pulse 1.5s infinite',
       },
     },
   },
   plugins: [],
-};
+}

@@ -204,3 +204,9 @@ const TourDetails = () => {
 };
 
 export default TourDetails;
+
+
+
+
+
+
