@@ -4,7 +4,6 @@ import BusList from "../components/BusBooking/BusList";
 import SeatSelector from "../components/BusBooking/SeatSelector";
 import busesData from "../assets/data/buses.json";
 import { toast } from "react-toastify";
-import "../components/BusBooking/bus.css"; // Ensure you import the CSS file
 
 const BusBooking = () => {
   const [showBusList, setShowBusList] = useState(false);
