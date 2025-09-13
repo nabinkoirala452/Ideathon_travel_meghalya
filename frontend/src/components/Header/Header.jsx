@@ -163,7 +163,7 @@ const Header = () => {
             <Link to="/home">Home</Link>
             <Link to="/tours">Plan-Tours</Link>
             <Link to="/about">Gallery</Link>
-            <Link to="/price">Price-Track</Link> {/* ✅ Added here */}
+            <Link to="/price-tracker">Price-Track</Link> {/* ✅ Added here */}
             <Link to="/contact">Contact</Link>
           </ul>
         )}

@@ -13,6 +13,11 @@
     "reviews": [
       { "rating": 5, "comment": "Alex was amazing! So knowledgeable and friendly." },
       { "rating": 5, "comment": "He made our trip to the waterfalls unforgettable." }
+    ],
+    "fares": [
+      { "id": "f1", "type": "Standard Tour", "groupSize": "1-2 people", "price": 50 },
+      { "id": "f2", "type": "Group Tour", "groupSize": "3-5 people", "price": 120 },
+      { "id": "f3", "type": "Full-Day Private Tour", "groupSize": "1-5 people", "price": 250 }
     ]
   },
   {
@@ -25,6 +30,10 @@
     "photo": "../assets/images/girl-icon.png",
     "reviews": [
       { "rating": 4, "comment": "Very energetic and an excellent guide." }
+    ],
+    "fares": [
+      { "id": "f4", "type": "Morning Hike", "groupSize": "1-4 people", "price": 75 },
+      { "id": "f5", "type": "Full-Day Trek", "groupSize": "1-4 people", "price": 150 }
     ]
   },
   {
@@ -35,7 +44,10 @@
     "gender": "Male",
     "bio": "Your personal guide to Shillong's rich culture and history. Fluent in English and Khasi.",
     "photo": "../assets/images/boy-icon.png",
-    "reviews": []
+    "reviews": [],
+    "fares": [
+      { "id": "f7", "type": "Historical Walk", "groupSize": "1-5 people", "price": 80 }
+    ]
   },
   {
     "id": "guide-4",
@@ -58,6 +70,9 @@
     "reviews": [
       { "rating": 5, "comment": "David's knowledge of the trails was incredible. We saw so many amazing birds!" },
       { "rating": 4, "comment": "A very patient and helpful guide." }
+    ],
+    "fares": [
+      { "id": "f7", "type": "Historical Walk", "groupSize": "1-5 people", "price": 80 }
     ]
   },
   {
@@ -70,6 +85,9 @@
     "photo": "../assets/images/girl-icon.png",
     "reviews": [
       { "rating": 5, "comment": "A wonderful storyteller! Learned so much about the local culture." }
+    ],
+    "fares": [
+      { "id": "f7", "type": "Historical Walk", "groupSize": "1-5 people", "price": 80 }
     ]
   }
 ]

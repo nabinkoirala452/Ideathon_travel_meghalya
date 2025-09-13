@@ -1,19 +1,27 @@
-// src/components/PlaceDetails/GuideBooking.jsx
 
 import React, { useState, useEffect } from "react";
 import guidesData from "../../assets/data/guides.json";
 import { FaStar } from "react-icons/fa";
-import { FaUser, FaVenusMars } from "react-icons/fa6";
-import avatar from "../../assets/images/boy-icon.png";
+import { FaVenusMars } from "react-icons/fa6";
+import avatar from "../../assets/images/boy-icon.png"; // Assuming this path is correct
+import GuideBookingModal from "./GuideBookingModal";
 
 const GuideBooking = ({ placeId }) => {
   const [filteredGuides, setFilteredGuides] = useState([]);
+  const [selectedGuide, setSelectedGuide] = useState(null);
 
   useEffect(() => {
-    // Filter the guides based on the placeId passed from the parent component
     const guides = guidesData.filter((guide) => guide.placeId === placeId);
     setFilteredGuides(guides);
   }, [placeId]);
+
+  const handleBookClick = (guide) => {
+    setSelectedGuide(guide);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedGuide(null);
+  };
 
   return (
     <div className="mt-8">
@@ -25,8 +33,6 @@ const GuideBooking = ({ placeId }) => {
               key={guide.id}
               className="bg-white rounded-lg shadow-lg overflow-hidden transition-transform transform hover:scale-105"
             >
-
-
               <img
                 src={avatar}
                 alt={guide.name}
@@ -54,7 +60,10 @@ const GuideBooking = ({ placeId }) => {
                 </div>
               </div>
               <div className="p-4 bg-gray-50 border-t flex justify-center">
-                <button className="bg-BaseColor text-white font-bold py-2 px-6 rounded-lg hover:bg-BHoverColor">
+                <button
+                  onClick={() => handleBookClick(guide)}
+                  className="bg-BaseColor text-white font-bold py-2 px-6 rounded-lg hover:bg-BHoverColor"
+                >
                   Book {guide.name}
                 </button>
               </div>
@@ -63,6 +72,10 @@ const GuideBooking = ({ placeId }) => {
         </div>
       ) : (
         <p className="text-gray-500">No guides available for this location.</p>
+      )}
+
+      {selectedGuide && (
+        <GuideBookingModal guide={selectedGuide} onClose={handleCloseModal} />
       )}
     </div>
   );
