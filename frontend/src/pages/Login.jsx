@@ -36,7 +36,7 @@ const Login = () => {
       });
       toast.success("Login successful as Admin");
       setIsLoading(false);
-      navigate("/all-booking");
+      navigate("/issues");
       return; // Exit the function to prevent the API call
     }
 
