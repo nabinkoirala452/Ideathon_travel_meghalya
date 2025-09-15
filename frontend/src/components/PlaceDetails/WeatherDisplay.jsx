@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const WeatherDisplay = () => {
+  const [currentTime, setCurrentTime] = useState(new Date());
+
+  useEffect(() => {
+    const timerId = setInterval(() => {
+      setCurrentTime(new Date());
+    }, 1000);
+
+    return () => clearInterval(timerId);
+  }, []);
+
   const weather = {
     location: "Cherrapunjee",
     main: {
@@ -21,9 +31,15 @@ const WeatherDisplay = () => {
     ],
     viewVisibility: {
       isFoggy: true,
-      clearAt: "11:00 AM",
-      message: "The current view of the falls is foggy. It is estimated that the view will be clear around 11:00 AM."
+      message: "The current view of the falls is foggy. It is estimated that the view will be clear around "
     }
+  };
+
+  // Function to add hours to a date object and return the hour
+  const getEstimatedClearTime = (hoursToAdd) => {
+    const newTime = new Date(currentTime);
+    newTime.setHours(newTime.getHours() + hoursToAdd);
+    return newTime.toLocaleTimeString('en-US', { hour: 'numeric', hour12: true });
   };
 
   const currentDescription = weather.weather[0]?.description || "N/A";
@@ -45,11 +61,19 @@ const WeatherDisplay = () => {
         </div>
       </div>
 
+      <div className="text-center my-4">
+          <p className="text-2xl font-bold text-gray-800">
+            {currentTime.toLocaleTimeString()}
+          </p>
+          <p className="text-sm text-gray-600">
+            {currentTime.toLocaleDateString()}
+          </p>
+      </div>
+
       {weather.viewVisibility.isFoggy && (
-        // 🚀 Updated classes for theme matching
         <div className="bg-BaseColorLightest border-l-4 border-BaseColor text-BaseColorDarker p-4 my-4 rounded" role="alert">
           <p className="font-bold">Important Notice</p>
-          <p>{weather.viewVisibility.message}</p>
+          <p>{weather.viewVisibility.message} {getEstimatedClearTime(2)}.</p>
         </div>
       )}
 

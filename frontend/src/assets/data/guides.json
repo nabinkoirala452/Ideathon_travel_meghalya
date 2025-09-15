@@ -1,6 +1,3 @@
-
-
-
 [
   {
     "id": "guide-1",
@@ -88,6 +85,52 @@
     ],
     "fares": [
       { "id": "f7", "type": "Historical Walk", "groupSize": "1-5 people", "price": 80 }
+    ]
+  },
+  {
+    "id": "guide-7",
+    "name": "Linda Sangma",
+    "placeId": "cherapunjee-6",
+    "age": 29,
+    "gender": "Female",
+    "bio": "Adventure enthusiast specializing in rock climbing and waterfall rappelling experiences in Cherrapunji.",
+    "photo": "../assets/images/girl-icon.png",
+    "reviews": [
+      { "rating": 5, "comment": "Linda made our adventure thrilling and safe." }
+    ],
+    "fares": [
+      { "id": "f8", "type": "Adventure Tour", "groupSize": "1-4 people", "price": 180 },
+       { "id": "f5", "type": "Full-Day Trek", "groupSize": "1-4 people", "price": 150 }
+    ]
+  },
+  {
+    "id": "guide-8",
+    "name": "Rohit Lyngdoh",
+    "placeId": "cherapunjee-6",
+    "age": 38,
+    "gender": "Male",
+    "bio": "Expert in eco-tourism with deep knowledge about Cherrapunji’s biodiversity and conservation practices.",
+    "photo": "../assets/images/boy-icon.png",
+    "reviews": [
+      { "rating": 4, "comment": "Learned so much about local wildlife and plants." }
+    ],
+    "fares": [
+      { "id": "f9", "type": "Eco Tour", "groupSize": "1-5 people", "price": 100 }
+    ]
+  },
+  {
+    "id": "guide-9",
+    "name": "Meban Kharsyntiew",
+    "placeId": "cherapunjee-6",
+    "age": 40,
+    "gender": "Male",
+    "bio": "A cultural guide who specializes in Khasi traditions, festivals, and village life tours.",
+    "photo": "../assets/images/boy-icon.png",
+    "reviews": [],
+    "fares": [
+      { "id": "f10", "type": "Cultural Experience", "groupSize": "2-6 people", "price": 130 },
+      { "id": "f8", "type": "Adventure Tour", "groupSize": "1-4 people", "price": 180 }
+
     ]
   }
 ]
