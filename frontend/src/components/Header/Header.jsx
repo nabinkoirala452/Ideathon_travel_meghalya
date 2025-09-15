@@ -116,17 +116,23 @@ const Header = () => {
               )}
               {role === "admin" && (
                 <>
-                  <Link to="/all-booking" onClick={handleMenuToggle}>
+                  {/* <Link to="/" onClick={handleMenuToggle}>
                     Bookings
                   </Link>
                   <Link to="/all-tours" onClick={handleMenuToggle}>
                     Tours
-                  </Link>
+                  </Link> */}
                   <Link to="/create" onClick={handleMenuToggle}>
                     Create
                   </Link>
                   <Link to="/data" onClick={handleMenuToggle}>
                     Data
+                  </Link>
+                  <Link to="/analytics" onClick={handleMenuToggle}>
+                    Analytics
+                  </Link>
+                  <Link to="/issues" onClick={handleMenuToggle}>
+                    Issues
                   </Link>
                 </>
               )}
@@ -157,10 +163,12 @@ const Header = () => {
         {/* Desktop Navbar */}
         {role === "admin" ? (
           <ul className="md:flex hidden space-x-8">
-            <Link to="/all-booking">Bookings</Link>
-            <Link to="/all-tours">Tours</Link>
+            {/* <Link to="/all-booking">Bookings</Link>
+            <Link to="/all-tours">Tours</Link> */}
             <Link to="/create">Create</Link>
             <Link to="/data">Data</Link>
+            <Link to="/analytics">Analytics</Link>
+            <Link to="/issues">Issues</Link>
           </ul>
         ) : (
           <ul className="md:flex hidden space-x-4">

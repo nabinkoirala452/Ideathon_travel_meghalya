@@ -21,7 +21,10 @@ import PriceTracker from '../components/PriceTracker/PriceTracker';
 import PriceTrack from '../pages/PriceTracker';
 import PlaceDetails from "../pages/PlaceDetails"; 
 
+
 import Data from '../Dashboard/AdminPanel/Data'
+import Analytics from '../Dashboard/AdminPanel/Analytics'
+import IssueTracker from '../Dashboard/AdminPanel/IssueTracker'
 
 const Router = () => {
   return (
@@ -29,7 +32,7 @@ const Router = () => {
         <Route path='/' element={<Navigate to='/home' />} />
         <Route path='/home' element={<Home />} />
         <Route path='/my-account' element={<MyAccount />} />
-        <Route path='/all-booking' element={<Bookings />} />
+        {/* <Route path='/all-booking' element={<Bookings />} /> */}
         <Route path='/all-tours' element={<AdminTours />} />
         <Route path='/update-tour/:id' element={<UpdateTours />} />
         <Route path='/create' element={<CreateTours />} />
@@ -51,6 +54,8 @@ const Router = () => {
         <Route path="/tours/:tourId" element={<PlacesToVisit />} />
         <Route path="/place/:id" element={<PlaceDetails />} />
         <Route path='/data' element={<Data />} />
+        <Route path='/analytics' element={<Analytics />} />
+        <Route path='/issues' element={<IssueTracker />} />
 
         
     </Routes>

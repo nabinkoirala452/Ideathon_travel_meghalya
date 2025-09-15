@@ -25,8 +25,8 @@ const TourDetails = () => {
     
     // ⚠️ Remember to get a free API key from Hugging Face and paste it here
     const API_URL = "https://api-inference.huggingface.co/models/sshleifer/distilbart-cnn-12-6";
-    const HUGGING_FACE_API_KEY = "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"; // 🚀 Paste your key here
-    // const HUGGING_FACE_API_KEY = import.meta.env.VITE_HUGGING_FACE_API_KEY;
+    // const HUGGING_FACE_API_KEY = "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"; // 🚀 Paste your key here
+    const HUGGING_FACE_API_KEY = import.meta.env.VITE_HUGGING_FACE_API_KEY;
 
    
     
