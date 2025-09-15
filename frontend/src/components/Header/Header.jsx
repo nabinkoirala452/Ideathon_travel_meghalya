@@ -125,6 +125,9 @@ const Header = () => {
                   <Link to="/create" onClick={handleMenuToggle}>
                     Create
                   </Link>
+                  <Link to="/data" onClick={handleMenuToggle}>
+                    Data
+                  </Link>
                 </>
               )}
               {user ? (
@@ -157,6 +160,7 @@ const Header = () => {
             <Link to="/all-booking">Bookings</Link>
             <Link to="/all-tours">Tours</Link>
             <Link to="/create">Create</Link>
+            <Link to="/data">Data</Link>
           </ul>
         ) : (
           <ul className="md:flex hidden space-x-4">

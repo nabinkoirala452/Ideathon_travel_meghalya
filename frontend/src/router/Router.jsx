@@ -21,7 +21,7 @@ import PriceTracker from '../components/PriceTracker/PriceTracker';
 import PriceTrack from '../pages/PriceTracker';
 import PlaceDetails from "../pages/PlaceDetails"; 
 
-
+import Data from '../Dashboard/AdminPanel/Data'
 
 const Router = () => {
   return (
@@ -50,6 +50,7 @@ const Router = () => {
         <Route path="/price-tracker" element={<PriceTrack />} />
         <Route path="/tours/:tourId" element={<PlacesToVisit />} />
         <Route path="/place/:id" element={<PlaceDetails />} />
+        <Route path='/data' element={<Data />} />
 
         
     </Routes>
