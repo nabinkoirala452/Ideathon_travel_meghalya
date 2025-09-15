@@ -6,7 +6,10 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr0X3apcfmyjoSjpi1JYnLqX_6bTKInQFtqQ&s",
     "description": "A beautiful man-made lake surrounded by a botanical garden.",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "wanderlust123", "reviewText": "A peaceful place to relax and walk around.", "rating": 4 }
+    ]
   },
   {
     "id": "shillong-2",
@@ -15,7 +18,11 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://www.trawell.in/admin/images/upload/64849531Shillong_Shillong_View_Point_Main.jpg",
     "description": "The highest point in Shillong, offering panoramic views of the city.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "cloudchaser", "reviewText": "Amazing views, especially during sunset!", "rating": 5 },
+      { "username": "himalayan_trekker", "reviewText": "It gets crowded, but the view is worth it.", "rating": 4 }
+    ]
   },
   {
     "id": "shillong-3",
@@ -24,7 +31,10 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/elephant-falls-shillong-meghalaya-1-attr-hero?qlt=82&ts=1751460572862",
     "description": "A picturesque three-tiered waterfall surrounded by lush greenery, named after a rock formation resembling an elephant. The well-maintained pathways with railings make it accessible for visitors to enjoy the serene atmosphere and perfect photography opportunities.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "natureclicks", "reviewText": "Perfect for photography! Peaceful and beautiful.", "rating": 5 }
+    ]
   },
   {
     "id": "shillong-4",
@@ -33,7 +43,11 @@
     "location": "East Khasi Hills, Meghalaya",
     "photo": "https://en-media.thebetterindia.com/uploads/2016/07/blog.jpg",
     "description": "Known as the 'Grand Canyon of the East,' this panoramic viewpoint offers breathtaking 360-degree views of rolling hills, deep valleys, and swirling clouds. The rugged trails through lush greenery provide an immersive experience in nature's grandeur, though visitors should note ongoing construction concerns in the area.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "adventure_addict", "reviewText": "The views are absolutely breathtaking!", "rating": 5 },
+      { "username": "soulsearcher", "reviewText": "A bit crowded but worth the trek.", "rating": 4 }
+    ]
   },
   {
     "id": "shillong-5",
@@ -42,7 +56,10 @@
     "location": "East Khasi Hills, Meghalaya",
     "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/48/45/b4/friends.jpg?w=1400&h=-1&s=1",
     "description": "An ancient preserved forest considered sacred by the Khasi people, featuring a diverse ecosystem of rare flora and fauna. Local guides share insights into indigenous cultural rituals and traditions, making it both an ecological and cultural immersion experience.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "historybuff", "reviewText": "Very spiritual and calming place.", "rating": 5 }
+    ]
   },
   {
     "id": "shillong-6",
@@ -51,7 +68,10 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://www.meghalayatourcabs.com/wp-content/uploads/2024/08/0_IlS1XVEjfpQ2K_JG-1.jpg",
     "description": "A massive man-made reservoir surrounded by lush green hills, offering spectacular panoramic views. Visitors can enjoy boating, water sports, or simply relax while admiring the scenic beauty. The nearby canopy walk through forest areas provides a unique perspective of the landscape.",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "travelmoments", "reviewText": "Boating was such a fun experience here!", "rating": 5 }
+    ]
   },
   {
     "id": "shillong-7",
@@ -60,7 +80,10 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/don-bosco-museum-shillong-meghalaya-2-attr-hero?qlt=82&ts=1742155422455",
     "description": "A seven-story cultural museum showcasing the rich heritage of Northeast India through extensive exhibits of artifacts, traditional costumes, and historical displays. The museum offers comprehensive insights into the tribal cultures and traditions of the region's indigenous communities.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "culturegeek", "reviewText": "Best museum to learn about North East India.", "rating": 5 }
+    ]
   },
   {
     "id": "shillong-8",
@@ -69,7 +92,11 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://www.trawell.in/admin/images/upload/648495434Shillong_Police_Bazar_Main.jpg",
     "description": "The bustling commercial heart of Shillong featuring numerous shops, stalls, and boutiques selling traditional Khasi dresses, handwoven shawls, exquisite handicrafts, organic spices, and local products. This vibrant market provides an authentic experience of local life and culture.",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "shopaholic", "reviewText": "Perfect place for shopping local handicrafts!", "rating": 4 },
+      { "username": "localflavor", "reviewText": "Crowded but full of life and culture.", "rating": 5 }
+    ]
   },
   {
     "id": "shillong-9",
@@ -78,7 +105,10 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrX_8fuRRoFl5rL__uid-papCCmow0XILw8WiCd0m4Ufgvi42aveXsHMf0mvkLPQoFIqV8jDdlnrCH4OktSMPiFyaOOnRflOFwOktCATGv8vseYkl8a7TpdUVV-Bl6JbeL_J-6SZA=s1360-w1360-h1020-rw",
     "description": "A beautifully maintained park named after the wife of the first Governor of Assam, featuring lush gardens, a mini zoo, and a children's playground. It is known for its vibrant flower beds, serene walking paths, and colonial-era charm, making it a perfect spot for families and nature lovers.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "familytraveler", "reviewText": "Great for kids, peaceful and pretty.", "rating": 4 }
+    ]
   },
   {
     "id": "shillong-10",
@@ -87,9 +117,11 @@
     "location": "Shillong, Meghalaya",
     "photo": "https://www.holidify.com/images/cmsuploads/compressed/159780654390b24665ab_20220107192847.jpeg",
     "description": "One of the steepest and most vertical waterfalls in Meghalaya, known for its impressive drop and misty surroundings. Located near Happy Valley, it offers a peaceful and less-crowded experience, though the path can be slippery and requires caution. The waterfall is surrounded by local folklore and provides a serene natural escape.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "peacefulsoul", "reviewText": "Not too crowded, a peaceful experience.", "rating": 5 }
+    ]
   },
-
   {
     "id": "cherapunjee-1",
     "tourId": "02",
@@ -99,7 +131,16 @@
     "lng": 91.7335,
     "photo": "https://www.trawell.in/admin/images/upload/195195923Cherrapunji_Nohkalikai_Waterfalls_Main.jpg",
     "description": "One of the tallest plunge waterfalls in India, with a tragic legend.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "waterfalllover", "reviewText": "Absolutely stunning! The mist adds magic.", "rating": 5 },
+      { "username": "adventurer88", "reviewText": "The legend behind the fall is fascinating.", "rating": 4 },
+      { "username": "splashlife", "reviewText": "The tallest plunge waterfall I’ve seen!", "rating": 5 },
+      { "username": "travelbug", "reviewText": "Bit crowded but the views are breathtaking.", "rating": 4 },
+      { "username": "ecoexplorer", "reviewText": "A must-see in Meghalaya.", "rating": 5 },
+      { "username": "sightseer", "reviewText": "The drop is so high, felt surreal.", "rating": 5 },
+      { "username": "nomadic_heart", "reviewText": "Standing here is an unforgettable moment.", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-2",
@@ -108,7 +149,11 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://img.etimg.com/thumb/msid-90525128,width-300,height-225,imgsize-205818,resizemode-75/meghalaya-root-bridges.jpg",
     "description": "A natural wonder, these bridges are grown from the roots of rubber trees.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "naturelover", "reviewText": "An unforgettable trek and a truly amazing sight.", "rating": 5 },
+      { "username": "explorer29", "reviewText": "Walking on the root bridge was surreal!", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-3",
@@ -117,7 +162,10 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://media1.thrillophilia.com/filestore/s3qn155qg6uuqqiylem58yq9x1l2_shutterstock_2321755807.jpg",
     "description": "A beautiful seven-segmented waterfall—during monsoon, all seven streams roar down the cliff in unison, creating a mesmerizing natural spectacle.",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "monsoonmagic", "reviewText": "The seven streams together are a magical sight!", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-4",
@@ -126,7 +174,10 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/ff/03/86/img-20170723-132854-1.jpg?w=900&h=-1&s=1",
     "description": "A striking waterfall emerging from a natural rock formation—legend says a warrior was transformed into the fall, adding a mystical vibe.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "legendseeker", "reviewText": "The story adds so much mystery!", "rating": 4 }
+    ]
   },
   {
     "id": "cherapunjee-5",
@@ -135,7 +186,10 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/inside-the-sacred-masthead-hero?qlt=82&ts=1742183190852",
     "description": "A sacred grove revered by locals, filled with rare flora and spiritual significance—a serene retreat into nature and Khasi tradition.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "calmtraveler", "reviewText": "Felt a spiritual connection here.", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-6",
@@ -144,7 +198,16 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://i0.wp.com/wanderalonewithsin.com/wp-content/uploads/2025/02/Mawmluh4.jpg?fit=733%2C550&ssl=1",
     "description": "One of the fascinating limestone cave systems in the region—formed by years of chemical weathering, perfect for exploration.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "cave_explorer", "reviewText": "An exciting cave adventure, must visit!", "rating": 5 },
+      { "username": "thrillseeker", "reviewText": "The formations inside are mesmerizing.", "rating": 5 },
+      { "username": "spelunker101", "reviewText": "Bit slippery, but worth it!", "rating": 4 },
+      { "username": "naturewanderer", "reviewText": "A true hidden gem of Cherrapunjee.", "rating": 5 },
+      { "username": "adventurequeen", "reviewText": "Best cave experience in Meghalaya.", "rating": 5 },
+      { "username": "localguide", "reviewText": "Exploring the limestone was unforgettable.", "rating": 5 },
+      { "username": "backpackerlife", "reviewText": "Challenging but thrilling cave trek.", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-7",
@@ -153,7 +216,10 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://wanderon-images.gumlet.io/blogs/new/2024/10/52230129150_9466f7623d_o-scaled.jpg",
     "description": "A majestic three-tiered waterfall dropping ~305 m inside Thangkharang Park—one of India’s tallest and most photogenic cascades.",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "photoholic", "reviewText": "One of the tallest falls I’ve seen, jaw-dropping!", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-8",
@@ -162,7 +228,11 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFr1_D8tpSubABxkRNFV1SycFVjDWwHSOTOA&s",
     "description": "The longest living root bridge—stretching over 50 m and suspended 30 m above the ground—a marvel of natural architecture.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "treklover", "reviewText": "The longest root bridge, simply amazing!", "rating": 5 },
+      { "username": "bridgewalker", "reviewText": "Walking here felt magical.", "rating": 5 }
+    ]
   },
   {
     "id": "cherapunjee-9",
@@ -171,7 +241,10 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://s7ap1.scene7.com/is/image/incredibleindia/nongsawlia-presbyterian-church-cherrapunjee-meghalaya-1-attr-hero?qlt=82&ts=1742155649650",
     "description": "Built in 1841 by Welsh missionaries, this historic church offers a glimpse into colonial-era spirituality and local culture.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "heritagelover", "reviewText": "A beautiful church with rich history.", "rating": 4 }
+    ]
   },
   {
     "id": "cherapunjee-10",
@@ -180,7 +253,10 @@
     "location": "Cherrapunjee, Meghalaya",
     "photo": "https://media1.thrillophilia.com/filestore/jrik304eb0umcr4sx22v18r55egu_download%20(60).png",
     "description": "A scenic vantage point on the Shillong–Cherrapunji route—offers sweeping views over mist-clad valleys and rolling hills.",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "valleyviews", "reviewText": "Breathtaking views of the valleys.", "rating": 5 }
+    ]
   },
   {
     "id": "mawllynong-1",
@@ -189,7 +265,10 @@
     "location": "Mawlynnong, Meghalaya",
     "photo":"https://www.akkcrusier.com/blog/wp-content/uploads/2023/08/Mawlynnong-The-cleanest-city-in-Asia-1200x710.jpg",
     "description": "Known as 'God's Own Garden', it is one of the cleanest villages in Asia.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "cleanliving", "reviewText": "So clean and peaceful, worth visiting.", "rating": 5 }
+    ]
   },
   {
     "id": "mawllynong-2",
@@ -198,7 +277,10 @@
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://www.indiantempletour.com/wp-content/uploads/2023/05/living-root-bridge.jpg",
     "description": "Another impressive example of a living root bridge.",
-    "CrowdStatus": "Not Crowded"
+    "CrowdStatus": "Not Crowded",
+    "reviews": [
+      { "username": "naturevibes", "reviewText": "Less crowded and peaceful root bridge.", "rating": 5 }
+    ]
   },
   {
     "id": "mawllynong-3",
@@ -207,7 +289,10 @@
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://media1.thrillophilia.com/filestore/129jq3rht7mzv7qjyd38z591sxjn_shutterstock_1439330219.jpg",
     "description": "An 85-foot high bamboo skywalk offering panoramic aerial views of the Bangladesh plains. Entry fee is INR 10, and it provides a unique perspective of the border region :cite[1]:cite[8].",
-    "CrowdStatus": "Heavily Crowded"
+    "CrowdStatus": "Heavily Crowded",
+    "reviews": [
+      { "username": "skyhigh", "reviewText": "Unique experience, worth the climb!", "rating": 5 }
+    ]
   },
   {
     "id": "mawllynong-4",
@@ -216,7 +301,9 @@
     "location": "Mawlynnong, Meghalaya",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrtfq-WMHqgyQ0nPTOqDd_O3k2ETip71ecCg&s",
     "description": "A natural rock formation where a small stone precariously balances a larger boulder, showcasing a fascinating geological phenomenon. It is a curious sight and often appeals to visitors.",
-    "CrowdStatus": "Crowded"
+    "CrowdStatus": "Crowded",
+    "reviews": [
+      { "username": "geologybuff", "reviewText": "Interesting rock formation!", "rating": 4 }
+    ]
   }
-
 ]
