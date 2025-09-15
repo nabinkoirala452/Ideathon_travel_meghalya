@@ -95,6 +95,8 @@
     "tourId": "02",
     "name": "Nohkalikai Falls",
     "location": "Cherrapunjee, Meghalaya",
+    "lat": 25.2754,
+    "lng": 91.7335,
     "photo": "https://www.trawell.in/admin/images/upload/195195923Cherrapunji_Nohkalikai_Waterfalls_Main.jpg",
     "description": "One of the tallest plunge waterfalls in India, with a tragic legend.",
     "CrowdStatus": "Crowded"
