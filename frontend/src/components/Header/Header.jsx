@@ -126,13 +126,16 @@ const Header = () => {
                     Create
                   </Link>
                   <Link to="/data" onClick={handleMenuToggle}>
-                    Data
+                    Booking
                   </Link>
                   <Link to="/analytics" onClick={handleMenuToggle}>
                     Analytics
                   </Link>
                   <Link to="/issues" onClick={handleMenuToggle}>
                     Issues
+                  </Link>
+                  <Link to="/hidden-places" onClick={handleMenuToggle}>
+                    Hidden Places
                   </Link>
                 </>
               )}
@@ -166,9 +169,10 @@ const Header = () => {
             {/* <Link to="/all-booking">Bookings</Link>
             <Link to="/all-tours">Tours</Link> */}
             <Link to="/create">Create</Link>
-            <Link to="/data">Data</Link>
+            <Link to="/data">Booking</Link>
             <Link to="/analytics">Analytics</Link>
             <Link to="/issues">Issues</Link>
+            <Link to="/hidden-places">Hidden Places</Link>
           </ul>
         ) : (
           <ul className="md:flex hidden space-x-4">

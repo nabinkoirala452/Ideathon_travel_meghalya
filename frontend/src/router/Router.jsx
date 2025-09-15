@@ -20,6 +20,7 @@ import BusBooking from "../pages/BusBooking";
 import PriceTracker from '../components/PriceTracker/PriceTracker';
 import PriceTrack from '../pages/PriceTracker';
 import PlaceDetails from "../pages/PlaceDetails"; 
+import HiddenPlaces   from '../Dashboard/AdminPanel/HiddenPlaces'
 
 
 import Data from '../Dashboard/AdminPanel/Data'
@@ -56,6 +57,7 @@ const Router = () => {
         <Route path='/data' element={<Data />} />
         <Route path='/analytics' element={<Analytics />} />
         <Route path='/issues' element={<IssueTracker />} />
+        <Route path='/hidden-places' element={<HiddenPlaces />} />
 
         
     </Routes>
