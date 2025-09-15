@@ -61,14 +61,14 @@ const WeatherDisplay = () => {
         </div>
       </div>
 
-      <div className="text-center my-4">
+      {/* <div className="text-center my-4">
           <p className="text-2xl font-bold text-gray-800">
             {currentTime.toLocaleTimeString()}
           </p>
           <p className="text-sm text-gray-600">
             {currentTime.toLocaleDateString()}
           </p>
-      </div>
+      </div> */}
 
       {weather.viewVisibility.isFoggy && (
         <div className="bg-BaseColorLightest border-l-4 border-BaseColor text-BaseColorDarker p-4 my-4 rounded" role="alert">
